@@ -25,16 +25,18 @@ body {
 
 
 .headshot {
-    height: 30vh;
-    width: 30vw;
+    height: 35vh;
+    width: 22vw;
     align-self: center;
-    margin: 5vh 5vw 5vh 0vw;
+    margin: 5vh 2vw 5vh 0vw;
     border-radius: 100%;
 }
 
 .aboutmeText{
     color: var(--MainText);
     align-self: center;
+    width: 90vw;
+    margin: 5vh 0vw 5vh 3vw;
 }
 
 .sectionA {
