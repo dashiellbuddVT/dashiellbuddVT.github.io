@@ -1,0 +1,120 @@
+:root {
+    --Main: #F2E8E0;
+    --Alt: #630031;
+    --MainText: #212427;
+    --AltText: #F2E8E0;
+    --Alt2: #CF4420;
+  }
+
+
+body {
+    margin: 0px;
+    background-color: var(--Main);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.AboutMe {
+    background-color: var(--Main);
+    height: 80vh;
+    display: flex;
+    margin: 0vh 5vw 10vh 5vw;
+}
+
+
+
+.headshot {
+    height: 30vh;
+    width: 30vw;
+    align-self: center;
+    margin: 5vh 5vw 5vh 0vw;
+    border-radius: 100%;
+}
+
+.aboutmeText{
+    color: var(--MainText);
+    align-self: center;
+}
+
+.sectionA {
+    background-color: var(--Main);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.sectionB {
+    background-color: var(--Alt);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+ 
+video {
+    height: 48vh;
+    width: 30vw;
+    align-self: center;
+    margin: 0vh 5vw 5vh 5vw;
+}
+
+.boltPicture {
+    margin: 5vh 5vw 5vh 5vw;
+
+}
+
+.shortPB {
+    margin: 5vh 5vw 5vh 5vw;
+    color: var(--AltText);
+}
+
+.shortPA {
+    margin: 5vh 5vw 5vh 5vw;
+    color: var(--MainText)
+}
+
+
+img { 
+    
+}
+
+.info { 
+    margin: 5vh 5vw 5vh 5vw;
+    color: var(--AltText);
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    background-color: var(--Main);
+    overflow: hidden;
+    align-items: center;
+    height: 10vh;
+}
+ nav h1 {
+    margin-right: 52vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    color: var(--Alt2);
+ }
+
+ nav a {
+    color: var(--AltText);
+    margin-right: 3vw;
+    font-style: italic;
+    background-color: var(--Alt2);
+    padding: 1em;
+    border-radius: 10%;
+    text-decoration: none;
+    font-style: normal;
+ }
+
+ p a {
+    color: var(--Alt2);
+ }
+
+
+
+  
+
+
